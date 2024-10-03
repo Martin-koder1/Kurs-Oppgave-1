@@ -7,6 +7,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   color: rgb(255, 255, 255);
   background-color: rgb(70, 70, 70);
+  background: repeating-linear-gradient( 45deg, #000000, #000000 15px, #5c5c5c 15px, #5c5c5c 75px );
 }
 
 nav {
