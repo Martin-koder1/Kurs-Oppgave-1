@@ -7,7 +7,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   color: rgb(255, 255, 255);
   background-color: rgb(70, 70, 70);
-  background: repeating-linear-gradient( 60deg, #700f0f, #700f0f 15px, #000000 15px, #000000 75px );
+  background: repeating-linear-gradient( 60deg, #454545, #000000 15px, #000000 15px, #454545 75px );
 }
 
 nav {
@@ -50,9 +50,11 @@ h1 {
 p {
   line-height: 0.5;
 }
+
 h2 {
   line-height: 3;
 }
+
 li {
   line-height: 1.6;
 }
