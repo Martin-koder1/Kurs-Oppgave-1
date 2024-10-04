@@ -49,6 +49,7 @@ h1 {
   text-align: center;
   line-height: 1;
   padding: 1.5rem;
+  background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #000000 10px ), repeating-linear-gradient( #505050, #505050 );
 }
 p {
   line-height: 0.5;
