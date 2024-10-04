@@ -72,3 +72,8 @@ h3 {
   opacity: 0;
   line-height: 0;
 }
+
+h4 {
+  border-top: solid 5px #b6b6b6;
+  padding: 0.2rem;
+}
