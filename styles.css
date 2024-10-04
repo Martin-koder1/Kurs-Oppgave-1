@@ -58,3 +58,8 @@ h2 {
 li {
   line-height: 1.6;
 }
+
+img {
+  border: solid 5px #b6b6b6;
+  border-radius: 10rem;
+}
