@@ -13,7 +13,7 @@ body {
 h1 {
   font-weight: bold;
   font-size: 3.5rem;
-  border: solid 5px #b6b6b6;
+  border: solid 5px #626262;
   background-color: #000000;
   text-align: center;
   line-height: 1;
@@ -58,7 +58,9 @@ p {
 .Exception {
   border-top: solid 5px #b6b6b6;
   padding-top: 1rem;
+  padding-bottom: 0.4rem;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   margin: 0;
+  background-color: #000000;
 }
