@@ -28,6 +28,7 @@ h2 {
   line-height: 1.5;
   border-bottom: solid 3px #b6b6b6;
   text-align: center;
+  text-shadow: 0 0 3px #000000, 0 0 5px #000000;
 }
 
 img {
@@ -43,6 +44,7 @@ ul {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  text-shadow: 0 0 3px #000000, 0 0 5px #000000;
 }
 
 p {
@@ -50,6 +52,7 @@ p {
   line-height: 1.5rem;
   margin-inline-start: 25px;
   margin-inline-end: 25px;
+  text-shadow: 0 0 3px #000000, 0 0 5px #000000;
 }
 
 .Spacing {
