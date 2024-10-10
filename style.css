@@ -8,7 +8,7 @@ body {
   color: rgb(255, 255, 255);
   background-color: rgb(70, 70, 70);
   background: repeating-linear-gradient( 60deg, #454545, #000000 15px, #000000 15px, #454545 75px );
-  text-shadow: 0 0 3px #000000, 0 0 5px #000000;
+  text-shadow: 0 0 4px #000000, 0 0 5px #000000;
 }
 
 h1 {
@@ -45,7 +45,6 @@ ul {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  text-shadow: 0 0 3px #000000, 0 0 5px #000000;
 }
 
 p {
@@ -60,6 +59,9 @@ p {
 }
 
 .Exception {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
   border-top: solid 5px #b6b6b6;
   padding-top: 1rem;
   padding-bottom: 0.4rem;
@@ -91,4 +93,13 @@ p {
   text-shadow: none;
   border: solid 5px #ffffff;
   border-radius: 2.5rem;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.InsideBoxes {
+  color: #000000;
 }
