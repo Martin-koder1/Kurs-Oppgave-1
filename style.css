@@ -7,8 +7,8 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   color: rgb(255, 255, 255);
   background-color: rgb(70, 70, 70);
-  background: repeating-linear-gradient( 60deg, #454545, #000000 15px, #000000 15px, #454545 75px );
   text-shadow: 0 0 4px #000000, 0 0 5px #000000;
+  font-weight: bold;
 }
 
 h1 {
@@ -17,11 +17,18 @@ h1 {
   align-items: center;
   font-weight: bold;
   font-size: 3.5rem;
-  border: solid 5px #626262;
   line-height: 1;
-  padding: 1.5rem;
-  background-image:  linear-gradient(135deg, #000000 25%, transparent 25%), linear-gradient(225deg, #000000 25%, transparent 25%), linear-gradient(45deg, #000000 25%, transparent 25%), linear-gradient(315deg, #000000 25%, #626262 25%);
+  padding: 2rem;
   margin: 0;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.StartImage {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/5/57/Tertnes.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  border-bottom: solid 2px black;
 }
 
 h2 {
@@ -30,15 +37,6 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-img {
-  border: solid 5px #b6b6b6;
-  border-radius: 10rem;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 45px;
 }
 
 ul {
@@ -83,7 +81,7 @@ p {
 }
 
 .Boxes {
-  background-color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.4);
   font-size: large;
   color: rgb(0, 0, 0);
   padding: 14px 25px;
@@ -91,8 +89,9 @@ p {
   text-decoration: none;
   display: inline-block;
   text-shadow: none;
-  border: solid 5px #ffffff;
+  border: solid 2px rgba(0, 0, 0, 0.4);
   border-radius: 2.5rem;
+  text-shadow: 0 0 1px #ffffff, 0 0 2px #ffffff;
 }
 
 a {
@@ -102,4 +101,51 @@ a {
 
 .InsideBoxes {
   color: #000000;
+}
+
+.ImageMe {
+  background-image: url(https://scontent.fosl2-1.fna.fbcdn.net/v/t1.6435-9/52043188_807125682981362_400453220146610176_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=2a1932&_nc_ohc=9-TFomMXaMoQ7kNvgGFtp8b&_nc_ht=scontent.fosl2-1.fna&_nc_gid=AoKvxXbT_J2vKTiRmyO5O-6&oh=00_AYDK9F2VSKl2gUJEvPXSaxEuC7Goiwq2B3L5idgIj3Z3YQ&oe=6725C7EB);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom: solid 2px black;
+  padding-bottom: 60rem;
+  padding-top: 1rem;
+}
+
+.IktSosial {
+  background-image: url(https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/wp1lcwdav1p1/7J9Qh1Xr191CdF3ty1tv7O/11d5e37698ad30d554ee7b650fbfc7de/GettyImages-1171809330.jpg?w=1500&h=680&q=60&fit=fill&f=faces&fm=jpg&fl=progressive&auto=format%2Ccompress&dpr=1&w=1000);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom: solid 2px black;
+  padding-bottom: 20rem;
+  padding-top: 1rem;
+  color: #000000;
+  text-shadow: 0 0 1px #ffffff, 0 0 2px #ffffff;
+}
+
+.Controller {
+  background-image: url(https://research.euro.savills.co.uk/_images/gaming-banner-23.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom: solid 2px black;
+  padding-bottom: 10rem;
+  padding-top: 1rem;
+}
+
+.Writing {
+  background-image: url(https://www.veanea.org/wp-content/uploads/2023/02/Writing-a-List-2-22-23.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom: solid 2px black;
+  padding-bottom: 15rem;
+  padding-top: 1rem;
+}
+
+.CodingPic {
+  background-image: url(https://api.ndla.no/image-api/raw/id/41892);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom: solid 2px black;
+  padding-bottom: 10rem;
+  padding-top: 1rem;
 }
