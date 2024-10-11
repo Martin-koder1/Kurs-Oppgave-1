@@ -46,6 +46,8 @@ ul {
 }
 
 p {
+  display: flex;
+  flex-direction: row;
   padding: 0.25rem;
   line-height: 1.5rem;
   margin-inline-start: 25px;
