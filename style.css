@@ -7,7 +7,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   color: rgb(255, 255, 255);
   background-color: rgb(70, 70, 70);
-  text-shadow: 0 0 4px #000000, 0 0 5px #000000;
+  text-shadow: 0 0 6px #000000, 0 0 7px #000000;
   font-weight: bold;
 }
 
@@ -18,7 +18,7 @@ h1 {
   font-weight: bold;
   font-size: 3.5rem;
   line-height: 1;
-  padding: 2rem;
+  padding: 4rem;
   margin: 0;
   font-family: "Times New Roman", Times, serif;
 }
@@ -33,7 +33,7 @@ h1 {
 
 h2 {
   line-height: 1.5;
-  border-bottom: solid 3px #b6b6b6;
+  border-bottom: solid 4px #fdfdfd;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -47,7 +47,7 @@ ul {
 
 p {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   padding: 0.25rem;
   line-height: 1.5rem;
   margin-inline-start: 25px;
@@ -69,6 +69,7 @@ p {
   margin-inline-end: 0px;
   margin: 0;
   background-color: #000000;
+  padding-left: 0;
 }
 
 .LinkList {
@@ -83,26 +84,33 @@ p {
 }
 
 .Boxes {
-  background-color: rgba(255, 255, 255, 0.4);
   font-size: large;
   color: rgb(0, 0, 0);
-  padding: 14px 25px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   text-shadow: none;
-  border: solid 2px rgba(0, 0, 0, 0.4);
-  border-radius: 2.5rem;
-  text-shadow: 0 0 1px #ffffff, 0 0 2px #ffffff;
+  text-shadow: 0 0 2px #ffffff, 0 0 3px #ffffff;
+}
+
+.GithubLink {
+  text-decoration: underline;
+  color: #ffffff;
+  padding: 0;
+  background: none;
 }
 
 a {
-  color: #ffffff;
+  padding: 14px 25px;
+  border: solid 2px rgba(0, 0, 0, 0.4);
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 2.5rem;
+  color: #000000;
   text-decoration: none;
 }
 
-.InsideBoxes {
-  color: #000000;
+.InsideBoxes:hover {
+  text-decoration: underline;
 }
 
 .ImageMe {
@@ -110,8 +118,9 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   border-bottom: solid 2px black;
-  padding-bottom: 60rem;
+  padding-bottom: 40rem;
   padding-top: 1rem;
+  background-position: 0px -200px, 0px 0px;
 }
 
 .IktSosial {
@@ -119,10 +128,9 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   border-bottom: solid 2px black;
-  padding-bottom: 20rem;
+  padding-bottom: 15rem;
   padding-top: 1rem;
-  color: #000000;
-  text-shadow: 0 0 1px #ffffff, 0 0 2px #ffffff;
+  background-position: 0px -100px, 0px 0px;
 }
 
 .Controller {
@@ -132,6 +140,7 @@ a {
   border-bottom: solid 2px black;
   padding-bottom: 10rem;
   padding-top: 1rem;
+  background-position: 0px -90px, 0px 0px;
 }
 
 .Writing {
@@ -150,4 +159,8 @@ a {
   border-bottom: solid 2px black;
   padding-bottom: 10rem;
   padding-top: 1rem;
+}
+
+.space {
+  display: block;
 }
