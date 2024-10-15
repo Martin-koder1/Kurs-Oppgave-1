@@ -89,6 +89,10 @@ p {
   background: none;
 }
 
+.GithubLink:hover {
+  color: rgb(49, 49, 182);
+}
+
 a {
   padding: 14px 25px;
   border: solid 2px rgba(0, 0, 0, 0.4);
