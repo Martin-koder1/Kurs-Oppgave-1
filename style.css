@@ -37,12 +37,6 @@ h2 {
   padding-top: 1rem;
 }
 
-ul {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
 p {
   display: flex;
   flex-direction: column;
@@ -69,10 +63,11 @@ p {
 .LinkList {
   font-weight: bold;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   list-style-type: none;
+  white-space: nowrap;
   gap: 40px;
   padding: 30px;
 }
@@ -132,6 +127,25 @@ a {
   border-bottom: solid 2px black;
   height: 100vh;
   background-position: center;
+}
+
+.GameSection {
+  display: flex;
+  flex-direction: row;
+  width: 350px;
+  border: 2px solid rgb(255, 255, 255);
+  display: flex;
+  list-style-type: none;
+  text-align: center;
+}
+
+.GameImage {
+  width: 30%;
+}
+
+.GameText {
+  width: 70%;
+  padding: 10px;
 }
 
 .Writing {
